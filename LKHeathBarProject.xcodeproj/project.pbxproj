@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7764ED1019277BE30014122A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED0F19277BE30014122A /* Foundation.framework */; };
+		7764ED1219277BE30014122A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED1119277BE30014122A /* CoreGraphics.framework */; };
+		7764ED1419277BE30014122A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED1319277BE30014122A /* UIKit.framework */; };
+		7764ED1619277BE30014122A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED1519277BE30014122A /* SpriteKit.framework */; };
+		7764ED1C19277BE30014122A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED1A19277BE30014122A /* InfoPlist.strings */; };
+		7764ED1E19277BE30014122A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED1D19277BE30014122A /* main.m */; };
+		7764ED2219277BE30014122A /* LKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED2119277BE30014122A /* LKAppDelegate.m */; };
+		7764ED2519277BE30014122A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED2319277BE30014122A /* Main.storyboard */; };
+		7764ED2819277BE30014122A /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED2719277BE30014122A /* LKViewController.m */; };
+		7764ED2B19277BE30014122A /* LKMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED2A19277BE30014122A /* LKMyScene.m */; };
+		7764ED2D19277BE30014122A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED2C19277BE30014122A /* Spaceship.png */; };
+		7764ED2F19277BE30014122A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED2E19277BE30014122A /* Images.xcassets */; };
+		7764ED3619277BE30014122A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED3519277BE30014122A /* XCTest.framework */; };
+		7764ED3719277BE30014122A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED0F19277BE30014122A /* Foundation.framework */; };
+		7764ED3819277BE30014122A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED1319277BE30014122A /* UIKit.framework */; };
+		7764ED4019277BE30014122A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED3E19277BE30014122A /* InfoPlist.strings */; };
+		7764ED4219277BE30014122A /* LKHeathBarProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED4119277BE30014122A /* LKHeathBarProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7764ED3919277BE30014122A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7764ED0419277BE30014122A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7764ED0B19277BE30014122A;
+			remoteInfo = LKHeathBarProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7764ED0C19277BE30014122A /* LKHeathBarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKHeathBarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7764ED0F19277BE30014122A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7764ED1119277BE30014122A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7764ED1319277BE30014122A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7764ED1519277BE30014122A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7764ED1919277BE30014122A /* LKHeathBarProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKHeathBarProject-Info.plist"; sourceTree = "<group>"; };
+		7764ED1B19277BE30014122A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7764ED1D19277BE30014122A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7764ED1F19277BE30014122A /* LKHeathBarProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKHeathBarProject-Prefix.pch"; sourceTree = "<group>"; };
+		7764ED2019277BE30014122A /* LKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAppDelegate.h; sourceTree = "<group>"; };
+		7764ED2119277BE30014122A /* LKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppDelegate.m; sourceTree = "<group>"; };
+		7764ED2419277BE30014122A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7764ED2619277BE30014122A /* LKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKViewController.h; sourceTree = "<group>"; };
+		7764ED2719277BE30014122A /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
+		7764ED2919277BE30014122A /* LKMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKMyScene.h; sourceTree = "<group>"; };
+		7764ED2A19277BE30014122A /* LKMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKMyScene.m; sourceTree = "<group>"; };
+		7764ED2C19277BE30014122A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		7764ED2E19277BE30014122A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7764ED3419277BE30014122A /* LKHeathBarProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKHeathBarProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7764ED3519277BE30014122A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7764ED3D19277BE30014122A /* LKHeathBarProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKHeathBarProjectTests-Info.plist"; sourceTree = "<group>"; };
+		7764ED3F19277BE30014122A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7764ED4119277BE30014122A /* LKHeathBarProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKHeathBarProjectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7764ED0919277BE30014122A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764ED1219277BE30014122A /* CoreGraphics.framework in Frameworks */,
+				7764ED1419277BE30014122A /* UIKit.framework in Frameworks */,
+				7764ED1619277BE30014122A /* SpriteKit.framework in Frameworks */,
+				7764ED1019277BE30014122A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764ED3119277BE30014122A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764ED3619277BE30014122A /* XCTest.framework in Frameworks */,
+				7764ED3819277BE30014122A /* UIKit.framework in Frameworks */,
+				7764ED3719277BE30014122A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7764ED0319277BE30014122A = {
+			isa = PBXGroup;
+			children = (
+				7764ED1719277BE30014122A /* LKHeathBarProject */,
+				7764ED3B19277BE30014122A /* LKHeathBarProjectTests */,
+				7764ED0E19277BE30014122A /* Frameworks */,
+				7764ED0D19277BE30014122A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7764ED0D19277BE30014122A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7764ED0C19277BE30014122A /* LKHeathBarProject.app */,
+				7764ED3419277BE30014122A /* LKHeathBarProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7764ED0E19277BE30014122A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7764ED0F19277BE30014122A /* Foundation.framework */,
+				7764ED1119277BE30014122A /* CoreGraphics.framework */,
+				7764ED1319277BE30014122A /* UIKit.framework */,
+				7764ED1519277BE30014122A /* SpriteKit.framework */,
+				7764ED3519277BE30014122A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7764ED1719277BE30014122A /* LKHeathBarProject */ = {
+			isa = PBXGroup;
+			children = (
+				7764ED2019277BE30014122A /* LKAppDelegate.h */,
+				7764ED2119277BE30014122A /* LKAppDelegate.m */,
+				7764ED2319277BE30014122A /* Main.storyboard */,
+				7764ED2619277BE30014122A /* LKViewController.h */,
+				7764ED2719277BE30014122A /* LKViewController.m */,
+				7764ED2919277BE30014122A /* LKMyScene.h */,
+				7764ED2A19277BE30014122A /* LKMyScene.m */,
+				7764ED2C19277BE30014122A /* Spaceship.png */,
+				7764ED2E19277BE30014122A /* Images.xcassets */,
+				7764ED1819277BE30014122A /* Supporting Files */,
+			);
+			path = LKHeathBarProject;
+			sourceTree = "<group>";
+		};
+		7764ED1819277BE30014122A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7764ED1919277BE30014122A /* LKHeathBarProject-Info.plist */,
+				7764ED1A19277BE30014122A /* InfoPlist.strings */,
+				7764ED1D19277BE30014122A /* main.m */,
+				7764ED1F19277BE30014122A /* LKHeathBarProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7764ED3B19277BE30014122A /* LKHeathBarProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7764ED4119277BE30014122A /* LKHeathBarProjectTests.m */,
+				7764ED3C19277BE30014122A /* Supporting Files */,
+			);
+			path = LKHeathBarProjectTests;
+			sourceTree = "<group>";
+		};
+		7764ED3C19277BE30014122A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7764ED3D19277BE30014122A /* LKHeathBarProjectTests-Info.plist */,
+				7764ED3E19277BE30014122A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7764ED0B19277BE30014122A /* LKHeathBarProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7764ED4519277BE30014122A /* Build configuration list for PBXNativeTarget "LKHeathBarProject" */;
+			buildPhases = (
+				7764ED0819277BE30014122A /* Sources */,
+				7764ED0919277BE30014122A /* Frameworks */,
+				7764ED0A19277BE30014122A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKHeathBarProject;
+			productName = LKHeathBarProject;
+			productReference = 7764ED0C19277BE30014122A /* LKHeathBarProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7764ED3319277BE30014122A /* LKHeathBarProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7764ED4819277BE30014122A /* Build configuration list for PBXNativeTarget "LKHeathBarProjectTests" */;
+			buildPhases = (
+				7764ED3019277BE30014122A /* Sources */,
+				7764ED3119277BE30014122A /* Frameworks */,
+				7764ED3219277BE30014122A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7764ED3A19277BE30014122A /* PBXTargetDependency */,
+			);
+			name = LKHeathBarProjectTests;
+			productName = LKHeathBarProjectTests;
+			productReference = 7764ED3419277BE30014122A /* LKHeathBarProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7764ED0419277BE30014122A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Huy Nguyen";
+				TargetAttributes = {
+					7764ED3319277BE30014122A = {
+						TestTargetID = 7764ED0B19277BE30014122A;
+					};
+				};
+			};
+			buildConfigurationList = 7764ED0719277BE30014122A /* Build configuration list for PBXProject "LKHeathBarProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7764ED0319277BE30014122A;
+			productRefGroup = 7764ED0D19277BE30014122A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7764ED0B19277BE30014122A /* LKHeathBarProject */,
+				7764ED3319277BE30014122A /* LKHeathBarProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7764ED0A19277BE30014122A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764ED1C19277BE30014122A /* InfoPlist.strings in Resources */,
+				7764ED2F19277BE30014122A /* Images.xcassets in Resources */,
+				7764ED2D19277BE30014122A /* Spaceship.png in Resources */,
+				7764ED2519277BE30014122A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764ED3219277BE30014122A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764ED4019277BE30014122A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7764ED0819277BE30014122A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764ED1E19277BE30014122A /* main.m in Sources */,
+				7764ED2B19277BE30014122A /* LKMyScene.m in Sources */,
+				7764ED2219277BE30014122A /* LKAppDelegate.m in Sources */,
+				7764ED2819277BE30014122A /* LKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764ED3019277BE30014122A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764ED4219277BE30014122A /* LKHeathBarProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7764ED3A19277BE30014122A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7764ED0B19277BE30014122A /* LKHeathBarProject */;
+			targetProxy = 7764ED3919277BE30014122A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7764ED1A19277BE30014122A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7764ED1B19277BE30014122A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7764ED2319277BE30014122A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7764ED2419277BE30014122A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7764ED3E19277BE30014122A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7764ED3F19277BE30014122A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7764ED4319277BE30014122A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7764ED4419277BE30014122A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7764ED4619277BE30014122A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKHeathBarProject/LKHeathBarProject-Prefix.pch";
+				INFOPLIST_FILE = "LKHeathBarProject/LKHeathBarProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7764ED4719277BE30014122A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKHeathBarProject/LKHeathBarProject-Prefix.pch";
+				INFOPLIST_FILE = "LKHeathBarProject/LKHeathBarProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7764ED4919277BE30014122A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LKHeathBarProject.app/LKHeathBarProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKHeathBarProject/LKHeathBarProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LKHeathBarProjectTests/LKHeathBarProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7764ED4A19277BE30014122A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LKHeathBarProject.app/LKHeathBarProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKHeathBarProject/LKHeathBarProject-Prefix.pch";
+				INFOPLIST_FILE = "LKHeathBarProjectTests/LKHeathBarProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7764ED0719277BE30014122A /* Build configuration list for PBXProject "LKHeathBarProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764ED4319277BE30014122A /* Debug */,
+				7764ED4419277BE30014122A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7764ED4519277BE30014122A /* Build configuration list for PBXNativeTarget "LKHeathBarProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764ED4619277BE30014122A /* Debug */,
+				7764ED4719277BE30014122A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7764ED4819277BE30014122A /* Build configuration list for PBXNativeTarget "LKHeathBarProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764ED4919277BE30014122A /* Debug */,
+				7764ED4A19277BE30014122A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7764ED0419277BE30014122A /* Project object */;
+}
