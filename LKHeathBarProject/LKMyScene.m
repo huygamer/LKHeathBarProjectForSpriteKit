@@ -14,13 +14,13 @@
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
-        _progressTimerNode = [[LKHeathBarNode alloc] initHeathBar];
-        _progressTimerNode.position = CGPointMake(roundf(size.width / 2.0f), roundf(size.height / 2.0f) - 20);
-        [_progressTimerNode setScale:2.0];
+        _progressHeathNode = [[LKHeathBarNode alloc] initHeathBar];
+        _progressHeathNode.position = CGPointMake(roundf(size.width / 2.0f), roundf(size.height / 2.0f) - 20);
+        [_progressHeathNode setScale:2.0];
         lkProcessing = 1.0f;
         
-        [_progressTimerNode setProgress:1.0f];
-        [self addChild:_progressTimerNode];
+        [_progressHeathNode setProgress:1.0f];
+        [self addChild:_progressHeathNode];
         
         SKSpriteNode * lkMoreHeath = [SKSpriteNode spriteNodeWithImageNamed:@"MoreButton"];
         lkMoreHeath.position = CGPointMake(CGRectGetMidX(self.frame) + 150, CGRectGetMidY(self.frame) - 260);
@@ -48,12 +48,12 @@
         
         if ([node.name isEqualToString:@"MoreButton"]){
             lkProcessing = lkProcessing >= (1 - amoutHeath) ? 1 : lkProcessing + amoutHeath;
-            [_progressTimerNode setProgress:lkProcessing];
+            [_progressHeathNode setProgress:lkProcessing];
         }
         
         if ([node.name isEqualToString:@"LessButton"]){
             lkProcessing = lkProcessing <= amoutHeath ? 0 : lkProcessing - amoutHeath;
-            [_progressTimerNode setProgress:lkProcessing];
+            [_progressHeathNode setProgress:lkProcessing];
         }
         
         if ([node.name isEqualToString:@"displayPopup"]){

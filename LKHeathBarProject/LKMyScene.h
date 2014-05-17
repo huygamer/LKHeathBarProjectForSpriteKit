@@ -13,5 +13,5 @@
 {
     float lkProcessing;
 }
-@property (nonatomic, strong) LKHeathBarNode *progressTimerNode;
+@property (nonatomic, strong) LKHeathBarNode *progressHeathNode;
 @end
