@@ -15,13 +15,7 @@
 @property (nonatomic, strong) LKHeathBarCropNode *foregroundCropNode;
 @property (nonatomic, strong) SKSpriteNode *accessorySpriteNode;
 
-- (id)initWithForegroundImageNamed:(NSString *)foregroundImageName
-              backgroundImageNamed:(NSString *)backgroundImageName
-               accessoryImageNamed:(NSString *)accessoryImageName;
-
-- (id)initWithForegroundTexture:(SKTexture *)foregroundTexture
-              backgroundTexture:(SKTexture *)backgroundTexture
-               accessoryTexture:(SKTexture *)accessoryTexture;
+- (id)initHeathBar;
 
 - (void)setProgress:(CGFloat)progress;
 @end

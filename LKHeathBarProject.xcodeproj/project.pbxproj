@@ -17,7 +17,6 @@
 		7764ED2519277BE30014122A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED2319277BE30014122A /* Main.storyboard */; };
 		7764ED2819277BE30014122A /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED2719277BE30014122A /* LKViewController.m */; };
 		7764ED2B19277BE30014122A /* LKMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED2A19277BE30014122A /* LKMyScene.m */; };
-		7764ED2D19277BE30014122A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED2C19277BE30014122A /* Spaceship.png */; };
 		7764ED2F19277BE30014122A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED2E19277BE30014122A /* Images.xcassets */; };
 		7764ED3619277BE30014122A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED3519277BE30014122A /* XCTest.framework */; };
 		7764ED3719277BE30014122A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED0F19277BE30014122A /* Foundation.framework */; };
@@ -55,7 +54,6 @@
 		7764ED2719277BE30014122A /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
 		7764ED2919277BE30014122A /* LKMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKMyScene.h; sourceTree = "<group>"; };
 		7764ED2A19277BE30014122A /* LKMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKMyScene.m; sourceTree = "<group>"; };
-		7764ED2C19277BE30014122A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		7764ED2E19277BE30014122A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7764ED3419277BE30014122A /* LKHeathBarProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKHeathBarProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7764ED3519277BE30014122A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -135,7 +133,6 @@
 				7764ED2719277BE30014122A /* LKViewController.m */,
 				7764ED2919277BE30014122A /* LKMyScene.h */,
 				7764ED2A19277BE30014122A /* LKMyScene.m */,
-				7764ED2C19277BE30014122A /* Spaceship.png */,
 				7764ED2E19277BE30014122A /* Images.xcassets */,
 				7764ED1819277BE30014122A /* Supporting Files */,
 			);
@@ -261,7 +258,6 @@
 			files = (
 				7764ED1C19277BE30014122A /* InfoPlist.strings in Resources */,
 				7764ED2F19277BE30014122A /* Images.xcassets in Resources */,
-				7764ED2D19277BE30014122A /* Spaceship.png in Resources */,
 				7764ED2519277BE30014122A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
