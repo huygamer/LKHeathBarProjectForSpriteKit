@@ -24,6 +24,8 @@
 		7764ED3819277BE30014122A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED1319277BE30014122A /* UIKit.framework */; };
 		7764ED4019277BE30014122A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7764ED3E19277BE30014122A /* InfoPlist.strings */; };
 		7764ED4219277BE30014122A /* LKHeathBarProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED4119277BE30014122A /* LKHeathBarProjectTests.m */; };
+		7764ED4E192781350014122A /* LKHeathBarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED4D192781350014122A /* LKHeathBarNode.m */; };
+		7764ED51192781570014122A /* LKHeathBarCropNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED50192781570014122A /* LKHeathBarCropNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		7764ED3D19277BE30014122A /* LKHeathBarProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKHeathBarProjectTests-Info.plist"; sourceTree = "<group>"; };
 		7764ED3F19277BE30014122A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7764ED4119277BE30014122A /* LKHeathBarProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKHeathBarProjectTests.m; sourceTree = "<group>"; };
+		7764ED4C192781350014122A /* LKHeathBarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKHeathBarNode.h; path = LKHeathBarNode/LKHeathBarNode.h; sourceTree = "<group>"; };
+		7764ED4D192781350014122A /* LKHeathBarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKHeathBarNode.m; path = LKHeathBarNode/LKHeathBarNode.m; sourceTree = "<group>"; };
+		7764ED4F192781570014122A /* LKHeathBarCropNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKHeathBarCropNode.h; path = LKHeathBarNode/LKHeathBarCropNode.h; sourceTree = "<group>"; };
+		7764ED50192781570014122A /* LKHeathBarCropNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKHeathBarCropNode.m; path = LKHeathBarNode/LKHeathBarCropNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		7764ED1719277BE30014122A /* LKHeathBarProject */ = {
 			isa = PBXGroup;
 			children = (
+				7764ED4B192780FF0014122A /* LKHeathBarNode */,
 				7764ED2019277BE30014122A /* LKAppDelegate.h */,
 				7764ED2119277BE30014122A /* LKAppDelegate.m */,
 				7764ED2319277BE30014122A /* Main.storyboard */,
@@ -162,6 +169,17 @@
 				7764ED3E19277BE30014122A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7764ED4B192780FF0014122A /* LKHeathBarNode */ = {
+			isa = PBXGroup;
+			children = (
+				7764ED4C192781350014122A /* LKHeathBarNode.h */,
+				7764ED4D192781350014122A /* LKHeathBarNode.m */,
+				7764ED4F192781570014122A /* LKHeathBarCropNode.h */,
+				7764ED50192781570014122A /* LKHeathBarCropNode.m */,
+			);
+			name = LKHeathBarNode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 			files = (
 				7764ED1E19277BE30014122A /* main.m in Sources */,
 				7764ED2B19277BE30014122A /* LKMyScene.m in Sources */,
+				7764ED4E192781350014122A /* LKHeathBarNode.m in Sources */,
+				7764ED51192781570014122A /* LKHeathBarCropNode.m in Sources */,
 				7764ED2219277BE30014122A /* LKAppDelegate.m in Sources */,
 				7764ED2819277BE30014122A /* LKViewController.m in Sources */,
 			);
@@ -475,6 +495,7 @@
 				7764ED4719277BE30014122A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7764ED4819277BE30014122A /* Build configuration list for PBXNativeTarget "LKHeathBarProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +504,7 @@
 				7764ED4A19277BE30014122A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

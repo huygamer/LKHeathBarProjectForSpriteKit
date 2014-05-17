@@ -7,7 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "LKHeathBarNode.h"
 
 @interface LKMyScene : SKScene
-
+{
+    float lkProcessing;
+}
+@property (nonatomic, strong) LKHeathBarNode *progressTimerNode;
 @end
