@@ -25,6 +25,10 @@
 		7764ED4219277BE30014122A /* LKHeathBarProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED4119277BE30014122A /* LKHeathBarProjectTests.m */; };
 		7764ED4E192781350014122A /* LKHeathBarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED4D192781350014122A /* LKHeathBarNode.m */; };
 		7764ED51192781570014122A /* LKHeathBarCropNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764ED50192781570014122A /* LKHeathBarCropNode.m */; };
+		7764ED5319278A6B0014122A /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED5219278A6B0014122A /* RevMobAds.framework */; };
+		7764ED5519278B640014122A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED5419278B640014122A /* SystemConfiguration.framework */; };
+		7764ED5719278B720014122A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED5619278B720014122A /* StoreKit.framework */; };
+		7764ED5919278B7E0014122A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ED5819278B7E0014122A /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		7764ED4D192781350014122A /* LKHeathBarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKHeathBarNode.m; path = LKHeathBarNode/LKHeathBarNode.m; sourceTree = "<group>"; };
 		7764ED4F192781570014122A /* LKHeathBarCropNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKHeathBarCropNode.h; path = LKHeathBarNode/LKHeathBarCropNode.h; sourceTree = "<group>"; };
 		7764ED50192781570014122A /* LKHeathBarCropNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKHeathBarCropNode.m; path = LKHeathBarNode/LKHeathBarCropNode.m; sourceTree = "<group>"; };
+		7764ED5219278A6B0014122A /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		7764ED5419278B640014122A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7764ED5619278B720014122A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7764ED5819278B7E0014122A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +79,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7764ED5919278B7E0014122A /* AdSupport.framework in Frameworks */,
+				7764ED5719278B720014122A /* StoreKit.framework in Frameworks */,
+				7764ED5519278B640014122A /* SystemConfiguration.framework in Frameworks */,
 				7764ED1219277BE30014122A /* CoreGraphics.framework in Frameworks */,
 				7764ED1419277BE30014122A /* UIKit.framework in Frameworks */,
 				7764ED1619277BE30014122A /* SpriteKit.framework in Frameworks */,
 				7764ED1019277BE30014122A /* Foundation.framework in Frameworks */,
+				7764ED5319278A6B0014122A /* RevMobAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +125,10 @@
 		7764ED0E19277BE30014122A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7764ED5819278B7E0014122A /* AdSupport.framework */,
+				7764ED5619278B720014122A /* StoreKit.framework */,
+				7764ED5419278B640014122A /* SystemConfiguration.framework */,
+				7764ED5219278A6B0014122A /* RevMobAds.framework */,
 				7764ED0F19277BE30014122A /* Foundation.framework */,
 				7764ED1119277BE30014122A /* CoreGraphics.framework */,
 				7764ED1319277BE30014122A /* UIKit.framework */,
@@ -409,6 +425,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LKHeathBarProject/LKHeathBarProject-Prefix.pch";
 				INFOPLIST_FILE = "LKHeathBarProject/LKHeathBarProject-Info.plist";
@@ -423,6 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LKHeathBarProject/LKHeathBarProject-Prefix.pch";
 				INFOPLIST_FILE = "LKHeathBarProject/LKHeathBarProject-Info.plist";

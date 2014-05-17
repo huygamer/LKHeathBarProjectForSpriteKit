@@ -31,6 +31,11 @@
         lkLessHeath.position = CGPointMake(CGRectGetMidX(self.frame) - 150, CGRectGetMidY(self.frame) - 260);
         lkLessHeath.name = @"LessButton";
         [self addChild:lkLessHeath];
+        
+        SKSpriteNode * displayPopup = [SKSpriteNode spriteNodeWithImageNamed:@"RevmobButton"];
+        displayPopup.position = CGPointMake(CGRectGetMaxX(self.frame) - 90, CGRectGetMinY(self.frame) + 90);
+        displayPopup.name = @"displayPopup";
+        [self addChild:displayPopup];
     }
     return self;
 }
@@ -49,6 +54,18 @@
         if ([node.name isEqualToString:@"LessButton"]){
             lkProcessing = lkProcessing <= amoutHeath ? 0 : lkProcessing - amoutHeath;
             [_progressTimerNode setProgress:lkProcessing];
+        }
+        
+        if ([node.name isEqualToString:@"displayPopup"]){
+            RevMobPopup *ad = [[RevMobAds session] popup];
+            
+            [ad loadWithSuccessHandler:^(RevMobPopup *pu){
+                [ad showAd];
+            }andLoadFailHandler:^(RevMobPopup *pu, NSError *error){
+                
+            }onClickHandler:^(RevMobPopup *pu){
+                
+            }];
         }
     }
 }

@@ -12,7 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [RevMobAds startSessionWithAppID:@"53654ac4db8eb85a21c47eb1"];
     return YES;
 }
 							
